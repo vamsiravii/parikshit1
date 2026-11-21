@@ -1,0 +1,15 @@
+# Build output (STM32CubeIDE)
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# OS files
+.DS_Store
