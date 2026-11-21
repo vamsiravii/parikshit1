@@ -17,4 +17,4 @@ There is also a small helper module, [`Core/Src/led_control.c`](Core/Src/led_con
 
 ## Known rough edges
 
-This repo has leftovers from an earlier STM32H7 project: STM32H7 startup and HAL configuration files are present, and `led_control.h` includes the H7 HAL header. The `Inc/`, `Src/` and `Startup/` folders at the top level also appear to duplicate `Core/`. Cleaning these up is a good next step. This project has not been build-verified after those leftovers were added, so treat it as a reference rather than a drop-in template.
+This repo has leftovers from an earlier STM32H7 project: STM32H7 startup and HAL configuration files are present, and `led_control.h` includes the H7 HAL header. The `Inc/`, `Src/` and `Startup/` folders at the top level also appear to duplicate `Core/`. Cleaning these up is a good next step. This project has not been build-verified, so treat it as a reference rather than a drop-in template.
